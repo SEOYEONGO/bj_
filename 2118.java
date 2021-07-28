@@ -18,7 +18,7 @@ public class twoTop_ver2_2118 {
 		// 각각 인덱스 마다 반시계, 시계로 돌면서 최소를 찾아. 그 리스트에서 최대를 찾는 방식임.
 		int r= n*(n-1)/2; 
 		int path1;
-    int res=Integer.MIN_VALUE;
+                int res=Integer.MIN_VALUE;
     
 		for(int i=1; i<n; i++) {  
 			for(int j=i+1; j<=n; j++) {
